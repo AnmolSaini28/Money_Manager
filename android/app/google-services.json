@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "623324366198",
+    "project_id": "budgeit-fc659",
+    "storage_bucket": "budgeit-fc659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623324366198:android:cd7c05c07099c24758e657",
+        "android_client_info": {
+          "package_name": "com.example.money_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDii1f2Hupv9St2BXVBZGHCbXDHnWPRsOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
