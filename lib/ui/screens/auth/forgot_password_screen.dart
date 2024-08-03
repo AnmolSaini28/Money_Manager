@@ -57,18 +57,20 @@ class _ForgotPassScreenState extends State<ForgotPassScreen> {
                 return SingleChildScrollView(
                   child: Column(
                     children: [
-                      Container(
-                        height: constraints.maxHeight * 0.63,
-                        color: Theme.of(context).primaryColor,
-                        child: const Center(
-                          child: Text(
-                            'Budgeto',
-                            style: TextStyle(
-                                fontSize: 50,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white),
-                          ),
+                      SizedBox(
+                        height: constraints.maxHeight * 0.2,
+                      ),
+                      const Center(
+                        child: Text(
+                          'Budgeit',
+                          style: TextStyle(
+                              fontSize: 50,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white),
                         ),
+                      ),
+                      SizedBox(
+                        height: constraints.maxHeight * 0.12,
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8),

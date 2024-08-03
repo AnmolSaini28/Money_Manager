@@ -16,7 +16,7 @@ import 'package:money_tracker/ui/widgets/custom_button.dart';
 import 'package:money_tracker/ui/widgets/custom_card.dart';
 import 'package:money_tracker/ui/widgets/null_error_message.dart';
 import 'package:money_tracker/ui/widgets/transaction_card.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

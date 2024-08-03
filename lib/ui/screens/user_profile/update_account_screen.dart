@@ -23,7 +23,6 @@ class _UpdateAccountScreenState extends State<UpdateAccountScreen> {
 
   String? dropdownValue = 'Income range';
   final items = [
-    'Income range',
     'Less than 200K',
     '200K - 400K',
     '400K - 600K',

@@ -84,18 +84,20 @@ class _SignupScreenState extends State<SignupScreen> {
                 return SingleChildScrollView(
                   child: Column(
                     children: [
-                      Container(
-                        height: constraints.maxHeight * 0.45,
-                        color: Theme.of(context).primaryColor,
-                        child: const Center(
-                          child: Text(
-                            'Budgeto',
-                            style: TextStyle(
-                                fontSize: 50,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.white),
-                          ),
+                      SizedBox(
+                        height: constraints.maxHeight * 0.2,
+                      ),
+                      const Center(
+                        child: Text(
+                          'Budgeit',
+                          style: TextStyle(
+                              fontSize: 50,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white),
                         ),
+                      ),
+                      SizedBox(
+                        height: constraints.maxHeight * 0.12,
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 8),
@@ -226,7 +228,7 @@ class _SignupScreenState extends State<SignupScreen> {
                             ),
                           ),
                         ),
-                      )
+                      ),
                     ],
                   ),
                 );

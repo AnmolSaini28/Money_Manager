@@ -7,7 +7,8 @@ import 'package:money_tracker/ui/screens/home/home_screen.dart';
 import 'package:money_tracker/ui/screens/my_wallet/wallet_screen.dart';
 import 'package:money_tracker/ui/screens/plan/planning_screen.dart';
 import 'package:money_tracker/ui/screens/user_profile/user_profile.dart';
-import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
+import 'package:persistent_bottom_nav_bar/persistent_bottom_nav_bar.dart';
+
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
@@ -74,15 +75,16 @@ class _BottomNavState extends State<BottomNav> {
                   borderRadius: const BorderRadius.only(
                       topLeft: Radius.circular(15),
                       topRight: Radius.circular(15))),
-              padding: const NavBarPadding.all(0),
+              padding: const EdgeInsets.all(0),
               backgroundColor: Theme.of(context).primaryColor,
               navBarStyle: NavBarStyle.style3,
-              itemAnimationProperties: const ItemAnimationProperties(
-                duration: Duration(milliseconds: 400),
-                curve: Curves.ease,
+              animationSettings: const NavBarAnimationSettings(
+                navBarItemAnimation: ItemAnimationSettings( // Navigation Bar's items animation properties.
+                  duration: Duration(milliseconds: 400),
+                  curve: Curves.ease,
+                ),
+                screenTransitionAnimation: ScreenTransitionAnimationSettings(curve: Curves.ease),
               ),
-              screenTransitionAnimation:
-              const ScreenTransitionAnimation(curve: Curves.ease),
             );
           }
 

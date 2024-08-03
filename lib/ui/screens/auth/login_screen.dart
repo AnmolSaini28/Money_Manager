@@ -77,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         const Center(
                           child: Text(
-                            'Budgeto',
+                            'Budgeit',
                             style: TextStyle(
                                 fontSize: 50,
                                 fontWeight: FontWeight.bold,
@@ -85,7 +85,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                         SizedBox(
-                          height: constraints.maxHeight * 0.2,
+                          height: constraints.maxHeight * 0.12,
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 8),
